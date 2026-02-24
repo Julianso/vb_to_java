@@ -25,9 +25,9 @@ internal class VbToJavaKtTest {
         assertEquals("", content4)
         assertEquals("if (season == 0) {", comment4)
 
-        val (indent5, content5, comment5) = split("pickstring = \"AccuScore's Over-Under Line is \" & sched!OU_M")
+        val (indent5, content5, comment5) = split("pickstring = \" Over-Under Line is \" & sched!OU_M")
         assertNull(indent5)
-        assertEquals("pickstring = \"AccuScore's Over-Under Line is \" & sched!OU_M", content5)
+        assertEquals("pickstring = \" Over-Under Line is \" & sched!OU_M", content5)
         assertNull(comment5)
 
     }
