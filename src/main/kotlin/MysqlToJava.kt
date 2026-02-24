@@ -14,7 +14,7 @@ fun main(args: Array<String>) {
 
     println(
         """
-        package com.accuscore.sim.db.ebeans.basketball;
+        package com.sim.db.ebeans;
 
         import javax.persistence.Column;
         import javax.persistence.Entity;
